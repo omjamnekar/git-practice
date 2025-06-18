@@ -35,7 +35,7 @@ function HomePage(props) {
     setLoadedMeetups(DUMMY_MEETUP);
   }, [loadMessage]);
 
-  return <div>hii om is here</div>;
+  return <div>hii jay is here for work</div>;
 }
 
 export async function getStaticProps() {
