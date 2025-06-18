@@ -35,7 +35,11 @@ function HomePage(props) {
     setLoadedMeetups(DUMMY_MEETUP);
   }, [loadMessage]);
 
-  return <MeetupList meetups={props.meetups}></MeetupList>;
+  return (
+    <div>
+      <button>update</button>
+    </div>
+  );
 }
 
 export async function getStaticProps() {
