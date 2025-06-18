@@ -29,11 +29,11 @@ const DUMMY_MEETUP = [
 ];
 
 function HomePage(props) {
-  const [loadMessage, setLoadedMeetups] = useState([]);
+  const [loadedMessage, setLoadedMeetups] = useState([]);
 
   useEffect(() => {
     setLoadedMeetups(DUMMY_MEETUP);
-  }, [loadMessage]);
+  }, [loadedMessage]);
 
   return <MeetupList meetups={props.meetups}></MeetupList>;
 }
