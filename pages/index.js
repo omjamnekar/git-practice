@@ -39,6 +39,7 @@ function HomePage(props) {
     <div>
       <button>update</button>
       <button>added</button>
+      <button>delete</button>
     </div>
   );
 }
