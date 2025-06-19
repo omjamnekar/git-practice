@@ -40,6 +40,7 @@ function HomePage(props) {
       <button>merge</button>
       <button>merge with update</button>
       <button>added</button>
+      <button>delete</button>
     </div>
   );
 }
