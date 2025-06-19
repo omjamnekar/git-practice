@@ -37,7 +37,8 @@ function HomePage(props) {
 
   return (
     <div>
-      <button>update</button>
+      <button>merge</button>
+      <button>merge with update</button>
       <button>added</button>
     </div>
   );
